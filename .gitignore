@@ -1,0 +1,19 @@
+# Secrets & Zugangsdaten – niemals committen
+.env
+.env.*
+*.key
+*.pem
+id_rsa*
+wireguard/
+secrets/
+
+# System & Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs & temporäre Dateien
+*.log
+tmp/
